@@ -138,8 +138,8 @@ a.small {
   background-color: rgba(255, 255, 255, 0.72);
   border: 1px solid rgba(0, 0, 0, 0.22);
   position: absolute;
-  top: 228px;
-  right: 169px;
+  top: 208px;
+  right: 279px;
   padding: 5px;
   text-align: left;
   color: black;
@@ -192,24 +192,16 @@ a.small {
 }
 
 .general-content-boxes {
-  height: 100%;
   width: 33.3%;
   padding: 2px;
   float: left;
+  margin-top: 10px;
 }
 
 .general-content-boxes p {
   margin-left: 34px;
   margin-right: 34px;
   font-size: 14px;
-}
-
-#find-a-dev h3 {
-   border-right: 1px solid;
-}
-
-#create-profile h3 {
-  border-right: 1px solid;
 }
 
 .general-content-buttons {
@@ -225,6 +217,14 @@ a.small {
   color: black;
   margin-left: 45px;
   margin-top: 10px; 
+}
+
+#create-profile {
+  border-right: 1px solid gray;
+}
+
+#find-a-dev {
+  border-right: 1px solid gray;
 }
 
 footer {
