@@ -1,0 +1,253 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  background-size: cover;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+#container {
+  width: 900px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+header {
+  height: 100px;
+  width: 100%; 
+  border: 1px solid black;
+  background-color: black;
+  border-bottom: 4px solid #F9F625;
+}
+
+header h1 {
+  color: #F9F625;
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: serif;
+  margin-top: 5px;
+  margin-left: 8px;
+}
+
+#header-nav {
+  margin-left: 14%;
+  margin-top: 10px;
+}
+
+a.header-links {
+  color: white;
+  margin-right: 18px;
+}
+
+a.big {
+  font-family: impact;
+  font-size: 20px;
+}
+
+a.small {
+  font-family: serif;
+  font-size: 16px;
+}
+
+#below-header-message {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.47);
+  text-align: center;
+}
+
+#below-header-message p {
+  color: black;
+  font-size: 23px;
+  font-style: italic;
+  font-family: serif;
+  font-weight: bolder;
+  padding-top: 16px;
+}
+
+#taste {
+  text-decoration: line-through;
+  color: rgba(128, 128, 128, 0.66);
+}
+
+#are {
+  border-bottom: 2px solid #F9F625; 
+  padding-bottom: 1px;
+}
+
+#image-container {
+/*  z-index: -1;*/
+  background: url(../images/coworking.jpg) no-repeat center top rgb(134,141,157);
+  height: 415px;
+  background-size: 100% 100%;
+}
+
+#meet-your-match {
+  height: 276px;
+  width: 224px;
+  background-color: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  position: absolute;
+  top: 228px;
+  right: 169px;
+  padding: 5px;
+  text-align: left;
+  color: black;
+  padding-left: 15px;
+}
+
+#meet-your-match h4 {
+  font-size: 24px;
+  font-family: serif;
+  font-weight: bolder;
+  padding-top: 7px;
+  padding-left: 2px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+#meet-your-match p {
+  font-size: 16px;
+  font-family: serif;
+}
+
+#meet-your-match button {
+  height: 35px;
+  width: 177px;
+  background-color: #F9F625;
+  font-weight: bold;
+  font-family: impact;
+  font-size: 16px;
+  border-radius: 5px;
+  border-color: transparent;
+  margin-top: 10px;
+  color: black;
+  margin-left: 7px;
+  margin-top: 22px; 
+}
+
+#general-content {
+  height: 220px;
+  width: 100%;
+  text-align: left; 
+}
+
+.general-content-titles {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: initial;
+  margin-bottom: 10px;
+  margin-left: 42px;
+  margin-top: 5px;
+}
+
+.general-content-boxes {
+  height: 100%;
+  width: 33.3%;
+  padding: 2px;
+  float: left;
+}
+
+.general-content-boxes p {
+  margin-left: 34px;
+  margin-right: 34px;
+  font-size: 14px;
+}
+
+#find-a-dev h3 {
+   border-right: 1px solid;
+}
+
+#create-profile h3 {
+  border-right: 1px solid;
+}
+
+.general-content-buttons {
+  height: 35px;
+  width: 177px;
+  background-color: rgba(128, 128, 128, 0.44);
+  font-weight: lighter;
+  font-family: impact;
+  font-size: 16px;
+  border-radius: 5px;
+  border-color: transparent;
+  margin-top: 10px;
+  color: black;
+  margin-left: 45px;
+  margin-top: 10px; 
+}
+
+footer {
+  height: 40px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding-left: 17px;
+  padding-top: 12px;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
